@@ -1,0 +1,20 @@
+// Create Student Registration form/..
+Save into database wth encrypted password
+Use student to login using spring security
+
+
+index / register / login 
+
+
+//register 
+
+
+
+//
+
+Student {
+
+student.setPassword( bct.encode( student.getpassword() ))
+
+service.save(student)
+}
