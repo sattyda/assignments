@@ -16,6 +16,8 @@ Also the admin should be able to edit questions and answers available in the dat
 All communication between chatbox and server will happen through AJAX. If the user is logged in then only profile related questions will be answered. So user specific APIs should be secured. 
 50% of the weightage will be given to finding the appropriate answer for the question in the database. You can start with exact matching. Then Regex/Partial matching. 
 
+Create restful APIs to access conversations and chats. All APIs should be secured with JWT token. User will be able to access his own resources. Admin can access all the resources. Create Swagger URL for all APIs as well unit test cases.
+
 Architecture Guideline:
 
 Minimum Microservices:
